@@ -6,6 +6,7 @@
     margin-top: 30px;
     margin-bottom: 150px;
     margin-right: 50px;
+    
 }
 .dua {
     width:100px;
@@ -13,7 +14,7 @@
     background-color: lightblue;
 }
 .tiga {
-    width:50 px;
-    height:50 px;
+    width:50px;
+    height:50px;
     background-color: violet;
 }
