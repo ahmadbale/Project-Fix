@@ -66,7 +66,7 @@ echo "<br>";
 $c = 45;
 $d = 28;
 $kursiTidakTerpakai = $c - $d;
-$persenKursiKosong= $kursiTidakTerpakai * 100 / $c;
+$persenKursiKosong= $kursiTidakTerpakai *   100 / $c  ;
 echo("Jumlah kursi awal :  $c <br>");
 echo("Jumlah kursi terpakai :  $d <br>");
 echo("Jumlah kursi tidak terpakai :  $kursiTidakTerpakai <br>");
