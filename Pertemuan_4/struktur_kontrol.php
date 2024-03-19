@@ -63,6 +63,7 @@ rsort($nilai);
 $nilai_siswa = array_slice ($nilai, 2, -2);
 $totalNilai = array_sum($nilai_siswa);
 $rataNilai = $totalNilai / 6;
+echo "Total Nilai: $totalNilai <br>";
 echo("Rata - rata nilai: $rataNilai");
 echo "<br>";
 echo "<br>";
