@@ -11,5 +11,5 @@
         echo "Jumlah Buku :" .$beliBuku ."<br>";
         ?>
     </body>
-    </head>
+</head>
 </html>
