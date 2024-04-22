@@ -9,7 +9,7 @@ include 'fungsi/anti_injection.php';
 $username = antiinjection($koneksi, $_POST['username']);
 $password = antiinjection($koneksi, $_POST['password']);
 
-$query = "SELECT username,level,salt, password as hashed_password FROM user WHERE username='$username'";
+$query = "SELECT username,level,salt, password as hashed_password FROM user_2 WHERE username='$username'";
 $result = mysqli_query($koneksi, $query);
 $row = mysqli_fetch_assoc($result);
 mysqli_close($koneksi);
