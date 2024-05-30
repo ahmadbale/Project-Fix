@@ -3,7 +3,7 @@
         <?php
         require 'admin/template/menu.php';
         $id = $_GET['id'];
-        $query = "SELECT * FROM anggota a, jabatan j, user_2 u WHERE a.jabatan_id = j.id AND a.user_id = u.id AND a.user_id = '$id'";
+        $query = "SELECT * FROM anggota_2 a, jabatan j, user_2 u WHERE a.jabatan_id = j.id AND a.user_id = u.id AND a.user_id = '$id'";
         $result = mysqli_query($koneksi, $query);
         $row = mysqli_fetch_assoc($result);
         ?>

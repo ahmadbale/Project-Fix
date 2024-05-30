@@ -36,7 +36,7 @@
                         <tbody>
                             <?php
                             $no = 1;
-                            $query = "SELECT * FROM anggota a, jabatan j, user_2 u WHERE a.jabatan_id = j.id AND a.user_id = u.id order by a.id desc";
+                            $query = "SELECT * FROM anggota_2 a, jabatan j, user_2 u WHERE a.jabatan_id = j.id AND a.user_id = u.id order by a.id desc";
                             $result = mysqli_query($koneksi, $query);
                             while ($row = mysqli_fetch_assoc($result)) {
                             ?>

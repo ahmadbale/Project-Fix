@@ -32,7 +32,7 @@ if (!empty($_SESSION['username'])) {
 
         if (mysqli_query($koneksi, $query)) {
             $last_id = mysqli_insert_id($koneksi);
-            $query2 = "INSERT INTO anggota (nama, jenis_kelamin, alamat, no_telp, user_id, jabatan_id) VALUES ('$nama', '$jenis_kelamin', '$alamat', '$no_telp', '$last_id', '$jabatan')";
+            $query2 = "INSERT INTO anggota_2 (nama, jenis_kelamin, alamat, no_telp, user_id, jabatan_id) VALUES ('$nama', '$jenis_kelamin', '$alamat', '$no_telp', '$last_id', '$jabatan')";
             if (mysqli_query($koneksi, $query2)) {
                 pesan('success', "Anggota Baru Ditambahkan");
             } else {
